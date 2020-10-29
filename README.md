@@ -11,4 +11,6 @@
 3. mysql索引是如何实现的？
     - 大多数mysql索引都通过B树来实现（部分数据类型使用R树），内存表支持哈希索引，InnoDB FULLTEXT 索引使用反向列表实现
     - 参考[8.3.1 How MySQL Uses Indexes](https://dev.mysql.com/doc/refman/5.7/en/mysql-indexes.html)
-
+4. mysql支持哪些存储引擎？
+5. mysql存储引擎的区别是什么？
+6. B树、R树数据结构有哪些特性？
