@@ -23,4 +23,8 @@
     - Federated
     - 参考[MySQL 5.7 Supported Storage Engines](https://dev.mysql.com/doc/refman/5.7/en/storage-engines.html)
 5. mysql存储引擎的区别是什么？
+    - MyISAM,Memory 表级锁
+    - InnoDB，NDB 行级锁
+    - 存储数据量 NDB > MyISAM > InnoDB
+    - [Table 15.1 Storage Engines Feature Summary](https://dev.mysql.com/doc/refman/5.7/en/storage-engines.html)
 6. B树、R树数据结构有哪些特性？
