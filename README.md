@@ -36,4 +36,7 @@
     - 虚幻引擎（英语：Unreal Engine）是一款由Epic Games开发的游戏引擎
     - 参考[虚幻引擎](https://zh.wikipedia.org/wiki/%E8%99%9A%E5%B9%BB%E5%BC%95%E6%93%8E)
 8. B树、R树数据结构有哪些特性？
-
+9. 如何通过wget下载google drive上的内容
+    ```
+    wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt
+    ```
